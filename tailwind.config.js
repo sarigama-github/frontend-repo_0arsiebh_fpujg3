@@ -6,6 +6,48 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        brand: {
+          mint: '#A8E6CF',
+          logo: '#55C6A8',
+          bright: '#CBFFC9',
+          dark: '#24392A',
+          disabled: '#C1DFD1',
+        },
+        secondary: {
+          coral: '#FF9999',
+          coralLight: '#FFB3BA',
+          coralSoft: '#FFC4C8',
+        },
+        lavender: {
+          light: '#E8E3F3',
+          medium: '#D4D0E8',
+          dark: '#B8A5D9',
+        },
+        bg: {
+          primary: '#F3F3F8',
+          surface: '#FFFFFF',
+          variant: '#F0F0F5',
+        },
+        textc: {
+          primary: '#000000',
+          secondary: '#2D2D2D',
+          tertiary: '#666666',
+          oncard: '#1A1A1A',
+        },
+        semantic: {
+          successLight: '#F0FFF0',
+          success: '#D4F4DD',
+          successDark: '#A8E6CF',
+          warning: '#FFB3BA',
+          error: '#FF6B6B',
+        },
+        neutral: {
+          muted: '#999999',
+          disabled: '#CCCCCC',
+          border: '#E5E5E5',
+        },
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         geist: ['Geist', 'system-ui', 'sans-serif'],

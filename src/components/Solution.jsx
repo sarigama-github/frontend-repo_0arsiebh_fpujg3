@@ -18,15 +18,15 @@ export default function Solution() {
   ]
 
   return (
-    <section id="features" className="py-16 sm:py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section id="features" className="py-16 sm:py-24 bg-gradient-to-b from-bg-primary to-bg-surface">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold tracking-tight text-gray-900 text-center">Meet Shapyfy: Your Offline AI Strength Coach</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-textc-primary text-center">Meet Shapyfy: Your Offline AI Strength Coach</h2>
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((f) => (
-            <div key={f.title} className="rounded-2xl border bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
+            <div key={f.title} className="rounded-2xl border border-neutral-border bg-bg-surface p-6 shadow-sm hover:shadow-md transition-shadow">
               <div className="text-3xl">{f.emoji}</div>
-              <h3 className="mt-4 font-semibold text-gray-800">{f.title}</h3>
-              <p className="mt-2 text-sm text-gray-600">{f.desc}</p>
+              <h3 className="mt-4 font-semibold text-textc-secondary">{f.title}</h3>
+              <p className="mt-2 text-sm text-textc-tertiary">{f.desc}</p>
             </div>
           ))}
         </div>
