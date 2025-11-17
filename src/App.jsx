@@ -2,6 +2,12 @@ import Navbar from './components/Navbar'
 import LandingHero from './components/LandingHero'
 import Problem from './components/Problem'
 import Solution from './components/Solution'
+import FeatureHighlights from './components/FeatureHighlights'
+import BetaIncentive from './components/BetaIncentive'
+import SocialProof from './components/SocialProof'
+import FAQ from './components/FAQ'
+import FinalCTA from './components/FinalCTA'
+import SiteFooter from './components/SiteFooter'
 
 function App() {
   return (
@@ -11,13 +17,13 @@ function App() {
         <LandingHero />
         <Problem />
         <Solution />
+        <FeatureHighlights />
+        <BetaIncentive />
+        <SocialProof />
+        <FAQ />
+        <FinalCTA />
       </main>
-      <footer className="py-10 border-t border-neutral-border bg-bg-surface/90">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-sm text-textc-tertiary flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>Shapyfy • Train offline • AI coaching</p>
-          <a className="text-textc-secondary hover:text-textc-primary" href="/test">Run backend test →</a>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   )
 }
